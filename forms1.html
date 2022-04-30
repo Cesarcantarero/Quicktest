@@ -12,16 +12,22 @@
     <section>
         <h1>UserName and Password</h1>
             <form action="/tacos">
+               
+               
                 <!-- The label element will create a label for the username "Enter a name" 
                 The input element creates the type of data field to create a box for the customer to fill in their information, 
             inside that box the placeholder will state "Username"  -->
+                
+            
                 <p>
                     <label for="username">Enter A Name:</label>
                     <input type="text" placeholder="Username" name="username">
                     
                     </p>
-                <!-- Similar to the code above this it is the same concept but instead we would put everything labled as "Password"  -->
-                <p>
+               
+                    <!-- Similar to the code above this it is the same concept but instead we would put everything labled as "Password"  -->
+               
+                 <p>
                     <label for="password">Enter A Password:</label>
                     <input id="password" type="password" placeholder="Password" name="password">
 
@@ -39,16 +45,24 @@ that is displayed and also the header would be seen smaller. Hr is what creates 
         <!-- This is where we move onto the next section of the web page so it will begin with a H1 tag because
         we are begining the section with a header named "Query string"-->
         <h1>Query Strings</h1>
+        
+        
         <!-- the form element creates a form on the website, so when followed by action="   " any website can be typed in to fill in 
         the blank, then the input element will create the search bar followed by the button element and that will be labled
         as submit reddit because that is the first website we attached-->
+           
+        
             <form action="https://www.reddit.com/search/">
 
                 <input type="text" name="q">
                 <button>Submit Reddit</button>
             </form>
-        <!-- This is going to have the same steps and explaination of the section above it, only difference here is we will
+        
+        
+            <!-- This is going to have the same steps and explaination of the section above it, only difference here is we will
         be replacing the url as youtube -->
+           
+        
             <form action="https://www.youtube.com/results?search_query=">
 
                 <input type="text" name="q">
@@ -66,16 +80,22 @@ that is displayed and also the header would be seen smaller. Hr is what creates 
         <hr>
 <!-- these three elements create the space in between the next part of the code if taken out it would get rid of the line
 that is displayed and also the header would be seen smaller -->
+   
+
     <section>
         <h1>Radio Buttons and Checkboxes</h1>
             <form action="/birds">
+               
                 <!-- This is where we are creating a checkbox so a customer would be able to agree with 
                 a statement.  -->
+               
                 <label for="agree">I agree to eveything</label>
                 <input type="checkbox" name="agree_tos" id="agree">
 
                 <!-- This is where we are creating radio buttons for our webpage to allow the user
                 to make a single selection -->
+                
+                
                 <p>
                     <label for="s">Small</label>
                     <input type="radio" name="size" id="s" value="small">
@@ -86,9 +106,12 @@ that is displayed and also the header would be seen smaller -->
                     <label for="l">Large</label>
                     <input type="radio" name="size" id="l" value="large">
 
+                
                 </p>
+                
                 <!-- This is where we we can click and select an option of our 
                 favoirte color. the option element creates a list of options  -->
+               
                 <p>
                     <label for="favColor">What is your favorite color?</label>
 
@@ -128,17 +151,29 @@ that is displayed and also the header would be seen smaller -->
             </form>
     </section>
     <hr>
+    
+    
     <!-- This is where we begin our last section of Form validtions this is where we put form
         action because it needs to go somewhere  -->
-    <section>
+   
+   
+        <section>
+
+
         <h2>Form Validations</h2>
+
+
         <form action="/bananas"> 
+
             <!-- the "required1" section is because something must be required in the section to bind the two pieces of ce -->
+           
             <label for="required1"></label>
             <input type="text" name="funny" id="required1" required>
 
             <!-- this is where we do our minlegnth and maxlength this is where it only allows the user to type a certain amount of
             characters in this case it is 5-10  -->
+            
+            
             <label for="length"></label>
             <input type="text" name="lenghthy" id="length" minlength="5" maxlength="10">
 
@@ -147,8 +182,15 @@ that is displayed and also the header would be seen smaller -->
 
             </p>
             <button type="submit">Submit</button>
+       
+       
         </form>
+    
+    
+    
     </section>
 
 </body>
+
+
 </html>
