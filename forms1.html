@@ -107,14 +107,17 @@ that is displayed and also the header would be seen smaller -->
 
                 </p>
 
-                <!--  -->
+                <!-- This is where we are creating a scroll bar. type="range" and id="scroll" creates the abilite to move 
+                and then we are requiered to put a min and max -->
                 <p>
                     
                     <label for="scroll">Cesar's Scrollbar</label>
                     <input type="range" id="scroll" min="5" max="10" name="scrollbar">
 
                 </p>
-                <!--  -->
+                <!-- this is where are giving the website user a chance to type something
+                the textarea element allows us to create a box and the rows and col is the height and with of this text area
+                ending with a sumbit button so it allows them to send there results -->
                 <p>
                     <label for="requests">Type Into This Box</label>
                     <textarea id="requests" name="reqs" rows="15" cols="15" placeholder="Type Something Here!"></textarea>
@@ -125,15 +128,17 @@ that is displayed and also the header would be seen smaller -->
             </form>
     </section>
     <hr>
-    <!--  -->
+    <!-- This is where we begin our last section of Form validtions this is where we put form
+        action because it needs to go somewhere  -->
     <section>
         <h2>Form Validations</h2>
         <form action="/bananas"> 
-            <!--  -->
+            <!-- the "required1" section is because something must be required in the section to bind the two pieces of ce -->
             <label for="required1"></label>
             <input type="text" name="funny" id="required1" required>
 
-            <!--  -->
+            <!-- this is where we do our minlegnth and maxlength this is where it only allows the user to type a certain amount of
+            characters in this case it is 5-10  -->
             <label for="length"></label>
             <input type="text" name="lenghthy" id="length" minlength="5" maxlength="10">
 
