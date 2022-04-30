@@ -1,70 +1,81 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
+    <title>Cesar's Forms</title>
 </head>
 
-<!-- -->
+<!-- This iw where I put my header, on this website H1 will say Username and Password this will be at the top of my screen -->
 <body>
     <section>
         <h1>UserName and Password</h1>
             <form action="/tacos">
-                <!--  -->
+                <!-- The label element will create a label for the username "Enter a name" 
+                The input element creates the type of data field to create a box for the customer to fill in their information, 
+            inside that box the placeholder will state "Username"  -->
                 <p>
                     <label for="username">Enter A Name:</label>
-                    <input id="username" type="text" placeholder="Username" name="username">
-
-                </p>
-                <!--  -->
+                    <input type="text" placeholder="Username" name="username">
+                    
+                    </p>
+                <!-- Similar to the code above this it is the same concept but instead we would put everything labled as "Password"  -->
                 <p>
                     <label for="password">Enter A Password:</label>
                     <input id="password" type="password" placeholder="Password" name="password">
 
                 </p>
-                <!--  -->
+                <!-- The buttton element creates a button and what ever text is written inside will be displayed  -->
                 <button>Submit Button</button>
 
-            </form>
+           </form> 
     </section>
     <hr>
-    <!--  -->
+    
+    <!-- these three elements create the space in between the next part of the code if taken out it would get rid of the line
+that is displayed and also the header would be seen smaller. Hr is what creates the barrier in between each section --> 
     <section>
-        <!--  -->
+        <!-- This is where we move onto the next section of the web page so it will begin with a H1 tag because
+        we are begining the section with a header named "Query string"-->
         <h1>Query Strings</h1>
-        <!--  -->
+        <!-- the form element creates a form on the website, so when followed by action="   " any website can be typed in to fill in 
+        the blank, then the input element will create the search bar followed by the button element and that will be labled
+        as submit reddit because that is the first website we attached-->
             <form action="https://www.reddit.com/search/">
 
                 <input type="text" name="q">
                 <button>Submit Reddit</button>
             </form>
-        <!--  -->
+        <!-- This is going to have the same steps and explaination of the section above it, only difference here is we will
+        be replacing the url as youtube -->
             <form action="https://www.youtube.com/results?search_query=">
 
                 <input type="text" name="q">
                 <button>Search YouTube</button>
 
             </form>
-        <!--  -->
+        <!-- Same as the two above it, but now it is google that we are using -->
             <form action="https://www.google.com/search">
 
                 <input type="text" name="q">
                 <button>Google Search</button>
 
-            </form>
-
-    </section>
-    <hr>
-<!--  -->
+            </form> 
+        </section>
+        <hr>
+<!-- these three elements create the space in between the next part of the code if taken out it would get rid of the line
+that is displayed and also the header would be seen smaller -->
     <section>
         <h1>Radio Buttons and Checkboxes</h1>
             <form action="/birds">
-                <label for="agree">I agree to everything</label>
+                <!-- This is where we are creating a checkbox so a customer would be able to agree with 
+                a statement.  -->
+                <label for="agree">I agree to eveything</label>
                 <input type="checkbox" name="agree_tos" id="agree">
 
-                <!--  -->
+                <!-- This is where we are creating radio buttons for our webpage to allow the user
+                to make a single selection -->
                 <p>
                     <label for="s">Small</label>
                     <input type="radio" name="size" id="s" value="small">
@@ -76,27 +87,62 @@
                     <input type="radio" name="size" id="l" value="large">
 
                 </p>
-
+                <!-- This is where we we can click and select an option of our 
+                favoirte color. the option element creates a list of options  -->
                 <p>
-                    <label for="favColor">What is your favorite color</label>
+                    <label for="favColor">What is your favorite color?</label>
 
                     <select name="favorite" id="favColor">
 
+                        <option value="Default">Default Option</option>
                         <option value="Red">Red</option>
 
                         <option value="Green">Green</option>
 
                         <option value="Blue">Blue</option>
+                        <option Value="Purple">Purple</option>
+                        <option Value="Yellow">Yellow</option>
                         
                     </select>
 
                 </p>
 
+                <!--  -->
+                <p>
+                    
+                    <label for="scroll">Cesar's Scrollbar</label>
+                    <input type="range" id="scroll" min="5" max="10" name="scrollbar">
 
+                </p>
+                <!--  -->
+                <p>
+                    <label for="requests">Type Into This Box</label>
+                    <textarea id="requests" name="reqs" rows="15" cols="15" placeholder="Type Something Here!"></textarea>
 
+                </p>
 
                 <button>Submit Button</button>
             </form>
+    </section>
+    <hr>
+    <!--  -->
+    <section>
+        <h2>Form Validations</h2>
+        <form action="/bananas"> 
+            <!--  -->
+            <label for="required1"></label>
+            <input type="text" name="funny" id="required1" required>
+
+            <!--  -->
+            <label for="length"></label>
+            <input type="text" name="lenghthy" id="length" minlength="5" maxlength="10">
+
+            <p>
+                <input type="email" required>
+
+            </p>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
 </body>
