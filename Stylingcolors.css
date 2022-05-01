@@ -1,0 +1,28 @@
+h1 {
+    
+    color:green;
+    
+
+}
+ /* this is where I create the colors, for the H1 I made it green. my h2 is purple
+ my Pragraph is pink with a green background color and my button is white text with a blue background */
+
+h2 {
+
+    color:purple;
+ 
+}
+
+
+
+p { 
+    color: pink;
+    background-color:green ;
+}
+
+button{
+
+    color: white;
+    background-color: blue;
+
+}
