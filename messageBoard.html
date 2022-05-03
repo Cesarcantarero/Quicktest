@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <!-- This is where I connected my Html page to the CSS one by 
+    using the link element with rel="stylesheet"  -->
+    <link rel="stylesheet" href="messageboard.css"
+
+</head>
+<body>
+
+    <!-- this is where I use the nav element to create navagations links for my paragraph
+         will create my search box and password box  -->
+    
+    
+     <nav>
+        <label for="search">Search</label>
+        <input type="text" placeholder="Search" id="search">
+
+        <input type="password" placeholder="Enter Password">
+        <button>Log In</button>
+        <!-- this is where I create a "signup" button  -->
+        <button id="signup">Sign Up</button>
+    
+    </nav>
+
+<!-- This is the main section of my page and it is starting off with my H1 Tag labled "College Football Fan Page"  -->
+
+    <main> 
+        <h1>College Football Fan Page</h1>
+
+        
+            <section class="post">
+                <!-- This is where i created fake accounts to comment on the page the "span" "<a" element do not mean anything on 
+                their own they are considered children elements -->
+                
+                <span>Posted by <a href="12354">SoonerFan1</a></span>
+                <h2>Oklahoma is a 9-3 team <span class="sec"> once they move to the SEC!</span></h2>
+                <button>+Vote</button>
+                <hr>
+            </section>
+
+
+            <section class="post">
+                <span>Posted by <a href="1298454">TexasFan1</a></span>
+                <h2>Texas is also going to struggle in the <span class="sec">SEC!</span></h2>
+                <button>+Vote</button>
+                <hr>
+            </section>
+
+
+            <section class="post">
+                <span>Posted by <a href="114554">LSUFan1</a></span>
+                <h2>Brian Kelly is going to struggle with his pass happy offense in the <span class="sec">SEC!</span></h2>
+                <button>+Vote</button>
+                <hr>
+            </section>
+        
+    
+    </main>
+
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com">Google</a>
+                </li>
+            </ul>
+        </nav>
+
+        
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+/*  */
+/* *   {
+    color:pink;
+    background-color:green;
+} */
+
+/*This is where I can change the color of my body, text or background.
+in this case i changed the color of my back ground to the Beige  */
+body {
+
+    background-color: beige;
+}
+/*Everything that is labled as a button element will increase to the size 30px  */
+button {
+    font-size:30px;
+}
+
+/*All my headers are going to be color Crimson  */
+h1, h2 {
+
+    color:crimson; 
+}
+
+/* my sign up button will be pink background with blue words  */
+#signup {
+
+    background-color: pink;
+    color:blue; 
+}
+/* here I focused on making the word "SEC" Green so everytime my page says "SEC"
+It will be highighted in green  */
+.sec{
+
+    color:green;
+}
+
+/*  */
+.post a {
+
+    color:hotpink; 
+}
