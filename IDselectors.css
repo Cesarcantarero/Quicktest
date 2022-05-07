@@ -1,3 +1,7 @@
+
+/* This is where I used the "." element in order to seprate the color of my
+List */
+
 .Red{
 color: red;
 
@@ -34,7 +38,8 @@ color:orange;
 
 }
 
-
+/* This is where I used the pound element in order to control my
+buttons background color and white text */
 #GreenButton{
 
     background-color: green;
