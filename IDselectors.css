@@ -1,0 +1,50 @@
+.Red{
+color: red;
+
+}
+
+.Crimson{
+
+color: crimson;
+
+
+}
+
+.yellow{
+
+color:yellow
+
+}
+
+.green{
+
+color: green;
+
+}
+
+.darkgreen{
+
+color: darkgreen;
+
+}
+
+.orange{
+
+color:orange;
+
+}
+
+
+#GreenButton{
+
+    background-color: green;
+    color: white;
+
+}
+
+#RedButton{
+
+background-color:red;
+color: white;
+
+}

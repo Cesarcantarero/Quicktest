@@ -39,3 +39,48 @@ It will be highighted in green  */
 
     color:hotpink; 
 }
+
+/*  */
+footer > a{
+
+
+        color: purple;
+
+}/*  */
+.post a {
+
+    color:hotpink; 
+}
+/*  */
+footer > a{
+
+    color:purple;
+}
+/*  */
+input[type="password"]{
+
+    color:purple;
+
+}
+
+input[type="text"]{
+
+    color: green; 
+}
+
+/*  */
+a[href*="google"]{
+    color:darkorange;
+
+}
+/*  */
+button:hover {
+
+    background-color:red;
+    color:aquamarine;
+}
+
+.post button:active {
+
+    background-color:green;
+}
