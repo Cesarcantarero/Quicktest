@@ -34,29 +34,29 @@ It will be highighted in green  */
     color:green;
 }
 
-/*  */
+/* This is where the "posted by...." is then labeled in pink */
 .post a {
 
     color:hotpink; 
 }
 
-/*  */
+
 footer > a{
 
 
         color: purple;
 
-}/*  */
+}/* This is where the "posted by...." is then labeled in pink */
 .post a {
 
     color:hotpink; 
 }
-/*  */
+/* This makes everything in the footers section purple  */
 footer > a{
 
     color:purple;
 }
-/*  */
+/*This makes the color purple when I begin to type in the password box  */
 input[type="password"]{
 
     color:purple;
@@ -68,12 +68,13 @@ input[type="text"]{
     color: green; 
 }
 
-/*  */
+/* This makes the google Hyper link dark orange */
 a[href*="google"]{
     color:darkorange;
 
 }
-/*  */
+/* This is where if I hoaver around my buttons labled "Vote" it will turn
+into a red box with aquamarine letters  */
 button:hover {
 
     background-color:red;
