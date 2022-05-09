@@ -1,0 +1,22 @@
+
+/* This is where I put the anchor tag with my header */
+H1 > a{
+    color: red;
+    font-size: 30px;
+    
+    }
+    /* Here I had id as "watching so i made that purple  */
+    #Watching a{
+        color: purple;
+    }
+    
+    
+    /* Here I had the "playing"  Id*/
+    #Playing a{
+        color: chocolate;
+    }
+    /* same steps as last two */
+    #Boxing a{
+    
+        color: orange;
+    }
